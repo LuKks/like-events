@@ -1,0 +1,33 @@
+{
+  "name": "like-events",
+  "version": "1.0.0",
+  "description": "Extends events with async for better flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuKks/like-events.git"
+  },
+  "author": "Lucas Barrena <lucasbarrena@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/like-events/issues"
+  },
+  "homepage": "https://github.com/LuKks/like-events#readme",
+  "keywords": [
+    "like",
+    "events",
+    "extends",
+    "async",
+    "flow",
+    "await",
+    "emitter",
+    "eventemitter"
+  ],
+  "devDependencies": {
+    "tap": "^14.9.2"
+  },
+  "dependencies": {}
+}
