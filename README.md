@@ -74,7 +74,7 @@ emitter.on('change', async function () {
   return false;
 });
 
-await emitter.emitAll('change'); // [true, false]
+console.log(await emitter.emitAll('change'));
 ```
 ```
 change A1
@@ -82,6 +82,7 @@ change B1
 sleep +1s
 change A2
 change B2
+[true, false]
 ```
 
 #### emitSeq
@@ -97,12 +98,13 @@ emitter.on('processing', async function () {
   return 51;
 });
 
-console.log(await emitter.emitSeq('processing')); // [49, 51]
+console.log(await emitter.emitSeq('processing'));
 ```
 ```
 processing A
 sleep +1s
 processing B
+[49, 51]
 ```
 
 ## Tests
