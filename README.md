@@ -55,7 +55,10 @@ emitter.on('update', function () {
   return false;
 });
 
-emitter.emitSync('update'); // [true, false]
+console.log(emitter.emitSync('update'));
+```
+```
+[true, false]
 ```
 
 #### emitAll
