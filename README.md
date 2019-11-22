@@ -115,5 +115,8 @@ processing B
 npm test
 ```
 
+## Issues
+Feedback, ideas, etc are very welcome so feel free to open an issue.
+
 ## License
 Code released under the [MIT License](https://github.com/LuKks/like-events/blob/master/LICENSE).
