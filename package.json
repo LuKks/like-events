@@ -1,6 +1,6 @@
 {
   "name": "like-events",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extends events with async for better flow",
   "main": "index.js",
   "scripts": {
